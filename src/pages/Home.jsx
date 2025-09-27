@@ -349,7 +349,7 @@ function Home() {
                             <button
                                 onClick={() => setShowCart(false)}
                                 className='bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all transform hover:-translate-y-1'>
-                                Start Shopping
+                                Start Order Food
                             </button>
                         </div>}
                 </div>
