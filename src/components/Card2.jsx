@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { AddItem, RemoveItem } from "../redux/cartSlice";
 
 function Card2({name,image,price,id,qty}) {
-  const dispatch = useDispatch();   // ✅ hook component ke andar hai
+  const dispatch = useDispatch();   // 
        if (!name||!image||!price||qty< 0){
         return null
        }
